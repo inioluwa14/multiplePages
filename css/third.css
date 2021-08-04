@@ -1,0 +1,44 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: orange;
+}
+h3{
+    text-align: center;
+    color:yellow;
+}
+
+p{
+    background-color:turquoise;
+    text-align: center;
+    font-size: 50px;;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+nav {
+    padding: 0 15px;
+}
+
+.container{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items:center;
+}
+li a {
+    color:thistle;
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px;
+}
+a:hover{
+    background-color: wheat;
+    color: tomato;
+    
+}
